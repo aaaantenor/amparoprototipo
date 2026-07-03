@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Chat - Amparo Bot</title>
+    <!-- Conectando o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="phone-container">
+    <!-- Barra de Status -->
+    <div class="status-bar">
+        <div class="time">09:41</div>
+        <div class="notch" style="width: 150px; height: 30px; background-color: #000; border-radius: 0 0 15px 15px;"></div>
+        <div class="icons">📶 🪫 100%</div>
+    </div>
+
+    <!-- Barra de Navegação -->
+    <div class="nav-bar">
+        <div class="back-icon">‹</div>
+        <div class="contact-info">
+            <div class="contact-photo">🤖</div>
+            <div class="contact-name-container">
+                <div class="contact-name">Amparo Bot 💙</div>
+                <div class="contact-status">Online</div>
+            </div>
+        </div>
+        <div class="nav-icons">
+            <div class="nav-icon">📞</div>
+        </div>
+    </div>
+
+    <!-- Área do Chat -->
+    <div class="chat-area" id="chatArea">
+        <div class="message-row" id="typingIndicator" style="display: none;">
+            <div class="typing-indicator">•••</div>
+        </div>
+    </div>
+
+    <!-- Barra de Entrada -->
+    <div class="input-bar">
+        <div class="input-icon">+</div>
+        <input type="text" class="text-input-field" placeholder="Digite uma mensagem..." id="textInput">
+        <button class="send-btn" id="sendBtn">➤</button>
+    </div>
+
+</div>
+
+<!-- Conectando o arquivo de lógica JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
